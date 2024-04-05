@@ -1,4 +1,6 @@
+document.querySelector("#btn").addEventListener("click",getFormvalue)
 function getFormvalue() {
-    //Write your code here
-
+    let input = document.getElementsByClassName("data");
+	let fullName=input[0].value+" "+input[1].value;
+alert(fullName);
 }
